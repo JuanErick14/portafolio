@@ -9,7 +9,360 @@
     <!-- GoogelFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Erick | Full Stack Developer & Marketing Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon-je.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-box">E</div>
+                <div class="logo-text">ERICK<span>.DEV</span></div>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#proyectos">Proyectos</a>
+                <a href="#habilidades">Stack</a>
+                <a href="#experiencia">Experiencia</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="btn-outline" style="padding: 0.5rem; border-radius: 8px;">
+                    <svg id="sun" style="display:none; width: 20px;" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg>
+                    <svg id="moon" style="display:none; width: 20px;" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                </button>
+                <a href="mailto:erick03juan@gmail.com" class="btn btn-primary btn-contratar">Contratar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="inicio" class="hero reveal">
+        <div class="container hero-flex">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    DISPONIBLE PARA PROYECTOS
+                </div>
+                <h1 class="hero-title">
+                    Full Stack Dev<br>
+                    con enfoque en<br>
+                    <span class="gradient-text">resultados reales.</span>
+                </h1>
+                <p class="hero-description">
+                    3+ años construyendo sitios rápidos, seguros y que convierten. Trabajo con WordPress, PHP, React e infraestructura cloud para empresas que necesitan que las cosas funcionen.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">3+</span>
+                        <span class="stat-label">Años de experiencia</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Proyectos entregados</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">2</span>
+                        <span class="stat-label">Países atendidos</span>
+                    </div>
+                </div>
+                <div class="hero-btns">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="cv/JuanEsquivelVargas-CV.pdf" download class="btn btn-outline">
+                        <svg style="width:20px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                        Descargar CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="img/Juan.jpg" alt="Juan Erick Esquivel Vargas">
+                </div>
+                <!-- Floating tag -->
+                <div class="hero-tag hero-tag-1">
+                    <svg style="width:16px; color:#3b82f6;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    WordPress Security Expert
+                </div>
+                <div class="hero-tag hero-tag-2">
+                    <svg style="width:16px; color:#8b5cf6;" fill="currentColor" viewBox="0 0 20 20"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path></svg>
+                    GTM + GA4 Avanzado
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SKILLS -->
+    <section id="habilidades" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Ecosistema <span class="gradient-text">Tecnológico</span></h2>
+            <div class="bento-grid">
+                <div class="card card-wide">
+                    <h3>Software & Desarrollo</h3>
+                    <p style="color: var(--text-muted-light); margin-bottom: 1.5rem;">Stack moderno para webs que cargan rápido y escalan sin problemas.</p>
+                    <div class="skill-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">React</span>
+                        <span class="tag">WordPress Core</span>
+                        <span class="tag">WooCommerce</span>
+                        <span class="tag">HTML / CSS / JS</span>
+                        <span class="tag">MySQL · SQL Server</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="font-style: italic; color: var(--primary);">Infraestructura</h3>
+                    <ul style="font-size: 0.875rem; color: var(--text-muted-light); display:flex; flex-direction:column; gap:0.5rem;">
+                        <li>• VPS / Hestia CP</li>
+                        <li>• Git — Push · Pull · Deploy</li>
+                        <li>• Cloudflare CDN & DNS</li>
+                        <li>• MDM & Tótems</li>
+                        <li>• FileZilla / FTP</li>
+                    </ul>
+                </div>
+                <div class="card card-primary">
+                    <h3 style="text-transform: uppercase; font-size: 1.25rem;">Marketing Tech</h3>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 1rem;">Analítica, tracking y automatización.</p>
+                    <div style="font-size: 0.875rem; font-weight: 700; margin-top: 0.5rem;">
+                        <div style="display:flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 5px; margin-bottom: 5px;"><span>SEO / SEM</span> <span>✦ Experto</span></div>
+                        <div style="display:flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 5px; margin-bottom: 5px;"><span>GTM / GA4</span> <span>✦ Avanzado</span></div>
+                        <div style="display:flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 5px; margin-bottom: 5px;"><span>Meta Ads / Pixel</span> <span>✦ Activo</span></div>
+                        <div style="display:flex; justify-content: space-between;"><span>Webhooks / API</span> <span>✦ CRM Sync</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section reveal">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title" style="margin-bottom: 0.5rem;">Proyectos <span class="gradient-text">Reales</span></h2>
+                <p style="color: var(--text-muted-light);">Trabajo entregado para empresas con operaciones activas.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Geosatelital Principal -->
+                <div class="project-item project-featured">
+                    <div class="project-thumb">
+                        <img src="img/Geosatelital-Peru.png" alt="Geosatelital Perú">
+                        <div class="project-badge-top">Trabajo actual</div>
+                        <div class="project-overlay">
+                            <a href="https://geosatelital.com/" target="_blank" class="project-btn">Ver sitio</a>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Geosatelital Perú</h3>
+                        <p>Administración completa del ecosistema web del holding: seguridad WordPress, despliegue en VPS (Hestia), integración GTM/GA4 y automatización de leads vía Webhooks + CRM.</p>
+                        <div class="project-tags">
+                            <span class="ptag">WordPress</span>
+                            <span class="ptag">VPS</span>
+                            <span class="ptag">GTM</span>
+                            <span class="ptag">CRM Sync</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Geosatelital Ecuador -->
+                <div class="project-item">
+                    <div class="project-thumb project-dark">
+                        <div class="project-placeholder">
+                            <img src="img/Geosatelital-Ecuador.png" alt="Geosatelital Ecuador">
+                            
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://geosatelital.com.ec/" target="_blank" class="project-btn">Ver sitio</a>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Geosatelital (.ec)</h3>
+                        <p>Expansión regional — infraestructura, dominio y despliegue para la sede en Ecuador dentro del mismo holding.</p>
+                        <div class="project-tags">
+                            <span class="ptag">Expansión regional</span>
+                            <span class="ptag">DNS / Cloudflare</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Geomedic -->
+                <div class="project-item">
+                    <div class="project-thumb">
+                        <img src="img/geomedic.png" alt="Geomedic">
+                        <div class="project-overlay">
+                            <a href="https://geomedic.pe/" target="_blank" class="project-btn">Ver sitio</a>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Geomedic Perú</h3>
+                        <p>Rediseño web completo con hardening de seguridad y optimización de rendimiento para empresa del sector médico.</p>
+                        <div class="project-tags">
+                            <span class="ptag">WordPress</span>
+                            <span class="ptag">Seguridad</span>
+                            <span class="ptag">SEO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hidrosvel -->
+                <div class="project-item">
+                    <div class="project-thumb">
+                        <img src="img/Hidrosvel-Service.png" alt="Satelock">
+                        <div class="project-overlay">
+                                <a href="https://hidrosvelservice.com/" target="_blank" class="project-btn">Ver sitio</a>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Hidrosvel Service</h3>
+                        <p>Automatización de captura y distribución de leads: formularios → Webhook → CRM, con analítica avanzada en GA4.</p>
+                        <div class="project-tags">
+                            <span class="ptag">Webhooks</span>
+                            <span class="ptag">GA4</span>
+                            <span class="ptag">Lead Gen</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TecFlex -->
+                <div class="project-item">
+                    <div class="project-thumb project-dark">
+                        <div class="project-placeholder">
+                            <img src="img/Tecflex.png" alt="Tecflex Perú">
+                            <div class="project-overlay">
+                                <a href="https://www.tecflex.com/" target="_blank" class="project-btn">Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Gestión Corporativa Web</h3>
+                        <p>Desarrollo y mantenimiento web corporativo, soporte RFID, control de asistencia y gestión de SQL Server.</p>
+                        <div class="project-tags">
+                            <span class="ptag">WordPress</span>
+                            <span class="ptag">SQL Server</span>
+                            <span class="ptag">RFID</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section id="experiencia" class="section experience">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; color: white;">Trayectoria <span style="color: var(--primary);">Profesional</span></h2>
+            
+            <div class="timeline">
+                <!-- 1. Geosatelital -->
+                <div class="timeline-item timeline-item-right reveal">
+                    <div class="dot dot-primary"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Sept 2025 – Presente</span>
+                        <h3>Geosatelital Perú E.I.R.L.</h3>
+                        <p class="timeline-role">Programador Web Full Stack</p>
+                        <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 0.5rem;">Liderazgo técnico del ecosistema digital de un holding internacional con presencia en Perú y Ecuador. Seguridad WordPress, administración VPS (Hestia), flujo Git continuo, GTM avanzado y automatización de leads con Webhooks + CRM. Gestión de MDM y tótems en sucursales interprovinciales.</p>
+                    </div>
+                </div>
+
+                <!-- 2. TecFlex -->
+                <div class="timeline-item timeline-item-left reveal">
+                    <div class="dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Ago 2023 – Ago 2025</span>
+                        <h3>Tecnología Flexográfica S.A.C.</h3>
+                        <p class="timeline-role">Especialista Web & Soporte TI</p>
+                        <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 0.5rem;">Desarrollo de sitios corporativos, configuración de Cloudflare y gestión de DNS. Soporte a equipos RFID y control de asistencia. Mantenimiento de bases de datos en SQL Server nivel intermedio.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Hidrosvel -->
+                <div class="timeline-item timeline-item-right reveal">
+                    <div class="dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Ene 2021 – Mar 2021</span>
+                        <h3>Hidrosvel Service</h3>
+                        <p class="timeline-role">Desarrollador Web (Prácticas)</p>
+                        <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 0.5rem;">Rediseño de navegación y UI, creación de landing pages y validación de código para compatibilidad cross-browser. Primeras implementaciones de estrategias SEO.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <div class="footer-info">
+                <div class="logo" style="margin-bottom: 1.5rem;">
+                    <div class="logo-box">E</div>
+                    <div class="logo-text">ERICK<span>.DEV</span></div>
+                </div>
+                <p style="color: var(--text-muted-light); font-size: 0.875rem; line-height: 1.8;">Desarrollo web con criterio técnico y visión de negocio. Desde Lima para el mundo.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/juan-erick-3449a2220/" target="_blank" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/juanerick14" target="_blank" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"></a>
+                    <a href="mailto:erick03juan@gmail.com" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+                </div>
+            </div>
+
+            <div class="footer-cta">
+                <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">¿Tienes un proyecto?</h3>
+                <p style="color: #94a3b8; margin-bottom: 2rem;">Cuéntame qué necesitas. Respondo en menos de 24 horas.</p>
+                <a href="mailto:erick03juan@gmail.com" class="btn btn-primary" style="background: white; color: black; font-size: 1rem; padding: 1rem 2rem;">ESCRIBIR AHORA</a>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 5rem; font-size: 0.65rem; font-weight: 800; color: var(--text-muted-light); letter-spacing: 0.3em; text-transform: uppercase;">
+            © 2026 Juan Erick Esquivel Vargas · Lima, Perú · juanerick14.github.io
+        </p>
+    </footer>
+
+<script src="script.js"></script>
+<script>
+    // Theme toggle fix
+    const toggle = document.getElementById('theme-toggle');
+    const sun = document.getElementById('sun');
+    const moon = document.getElementById('moon');
+
+    function applyTheme(isDark) {
+        document.body.classList.toggle('dark', isDark);
+        sun.style.display = isDark ? 'block' : 'none';
+        moon.style.display = isDark ? 'none' : 'block';
+    }
+
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = saved ? saved === 'dark' : prefersDark;
+    applyTheme(isDark);
+
+    toggle.addEventListener('click', () => {
+        const nowDark = !document.body.classList.contains('dark');
+        applyTheme(nowDark);
+        localStorage.setItem('theme', nowDark ? 'dark' : 'light');
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+</script>
+</body>
+</html>css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Favicon -->
